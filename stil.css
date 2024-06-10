@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "PetraMatkovic";
+    src: url("font/PetraMatkovic – kopija.ttf")format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.naslovi h1 {
+    font-family: "PetraMatkovic";
+    font-size: 600%;
+    text-align: center;
+    color: black;
+    
+}
+
+.naslovi h2 {
+    font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+    text-align: center;
+    color: white;
+    background-color: brown;
+}
+
+body {
+    background-image: url("slike/pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+    font-size: 16px; 
+    
+}
+
+video.center {
+
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    align-items: center;
+    }
+
+.text {
+    text-align: center;
+}
+
+
